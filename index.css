@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.ourTitle {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.counterButton {
+    /*background: black;*/
+    background: linear-gradient(90deg, grey, #020202);
+    color: yellow;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: 0.3s all;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.counterButton:hover {
+    border: 1px solid red;
+}
